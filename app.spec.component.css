@@ -1,0 +1,53 @@
+/* Estilo para o formulário */
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  /* Estilo para os rótulos */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  /* Estilo para os campos de entrada */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  /* Estilo para o botão de enviar */
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  /* Estilo para mensagens de erro */
+  .error-message {
+    color: #dc3545;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+
+  /* Estilo para mensagens de sucesso */
+  .success-message {
+    color: #28a745;
+    margin-top: 5px;
+    font-size: 14px;
+  }
